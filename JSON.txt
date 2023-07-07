@@ -1,0 +1,98 @@
+CATEGORY
+{
+    "categoryName": "Music",
+    "categoryNote": "Small to large shows available"
+}
+
+{
+  "categoryName": "Magic",
+  "categoryNote": "Lot of magic shows available in lasvegas"
+}
+
+{
+  "categoryName": "Strip",
+  "categoryNote": "Events on Las Vegas Strip"
+}
+
+
+
+EVENT
+{
+    "eventName": "Usher Concert",
+    "frequency": "15 concert/year",
+    "duration": "3 hrs",
+    "eventNote": "Residency starts 2023",
+    "categories": [
+      "Music", "Strip"
+    ]
+}
+
+{
+    "eventName": "Mat Franco",
+    "frequency": "twice a week",
+    "duration": 2 hrs
+    "eventNote": "Previous winner of America's Got Talent",
+    "categories": [
+      "Magic, Strip"
+    ]
+}
+
+
+VENUE
+{
+  "venueName": "Park Theater",
+  "capacity": 10000,
+  "venueAddress": "3770 S Las Vegas Blvd",
+  "venueCity": "Las Vegas",
+  "venueZip": "89109",
+  "venueNote": "located inside Park MGM Hotel & Casino"
+}
+
+{
+  "venueName": "Linq",
+  "capacity": 2500,
+  "venueAddress": "3535 S Las Vegas Blvd",
+  "venueCity": "Las Vegas",
+  "venueZip": "89109",
+  "venueNote": "located inside The Linq Hotel & Casino"
+}
+
+{
+  "venueName": "Colosseum",
+  "capacity": 15000,
+  "venueAddress": "3570 S Las Vegas Blvd",
+  "venueCity": "Las Vegas",
+  "venueZip": "89109",
+  "venueNote": "located inside Caesers Palas Hotel & Casino"
+}
+
+
+
+
+EVENT-DETAIL
+{
+      "description": "Usher New Year concert",
+      "date": "2023-01-01",
+      "startTime": "07:00:01",
+      "endTime": "09:00:59",
+      "isFree": false,
+      "availability": true
+}
+
+{
+      "description": "Usher second concert in January",
+      "date": "2023-01-09",
+      "startTime": "07:00:01",
+      "endTime": "09:00:59",
+      "isFree": false,
+      "availability": true
+}
+
+{
+      "description": "Mat weekly show",
+      "date": "2023-11-11",
+      "startTime": "06:00:00",
+      "endTime": "08:00:00",
+      "isFree": false,
+      "availability": true
+}
